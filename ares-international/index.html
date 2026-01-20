@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <title>Ares International Group</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Cairo:wght@400;600;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- ===== Header ===== -->
+  <header class="header">
+    <div class="logo">Ares International Group</div>
+
+    <!-- Burger Button -->
+    <button class="burger" id="burgerBtn">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+    <!-- Navigation -->
+    <nav class="nav" id="navMenu">
+      <a href="#home" data-i18n="home">Home</a>
+      <a href="#about" data-i18n="about">About Us</a>
+      <a href="#products" data-i18n="products">Products</a>
+      <a href="#gallery" data-i18n="catalog">Catalog</a>
+      <a href="#contact" data-i18n="contact">Contact</a>
+      <button id="langToggle" class="lang-btn mobile-lang">AR</button>
+    </nav>
+
+    <!-- Desktop language -->
+    <button id="langToggleDesktop" class="lang-btn desktop-lang">AR</button>
+  </header>
+
+  <!-- ===== Home ===== -->
+  <section id="home" class="hero">
+    <h1 data-i18n="hero_title">Delivering Sweet Moments Worldwide</h1>
+    <p data-i18n="hero_desc">
+      Ares International Group is a trusted distributor of high-quality biscuits,
+      cakes, sweets, lollipops, and confectionery products.
+    </p>
+  </section>
+
+  <!-- ===== About ===== -->
+  <section id="about" class="section">
+    <h2 data-i18n="about_title">About Us</h2>
+    <p data-i18n="about_desc">
+      Ares International Group operates with international standards in food
+      distribution, focusing on quality, safety, and customer satisfaction.
+    </p>
+  </section>
+
+  <!-- ===== Products ===== -->
+  <section id="products" class="section">
+    <h2 data-i18n="products_title">Our Products</h2>
+  <div class="products-grid">
+  <div class="product-card">
+    <img src="images/products/6012320543975082818_121-removebg-preview.png" alt="Biscuits">
+    <span data-i18n="biscuits">Biscuits</span>
+  </div>
+  <div class="product-card">
+    <img src="images/products/6012320543975082817_121-removebg-preview.png" alt="Cakes">
+    <span data-i18n="cakes">Cakes</span>
+  </div>
+  <div class="product-card">
+    <img src="images/products/6012320543975082815_120-removebg-preview.png" alt="Sweets">
+    <span data-i18n="sweets">Sweets</span>
+  </div>
+  <div class="product-card">
+    
+     <img src="images/products/6012320543975082816_120-removebg-preview.png" alt="Lollipops"><img src="images/products/6012320543975082814_120-removebg-preview.png" alt="Lollipops">
+    <span data-i18n="lollipops">Lollipops</span>
+  </div>
+  <div class="product-card">
+    <img src="images/products/6012320543975082811_120-removebg-preview.png" alt="Gum & Confectionery">
+    <span data-i18n="gum">Gum & Confectionery</span>
+  </div>
+</div>
+
+  </section>
+
+<!-- ===== Gallery ===== -->
+<section id="gallery" class="section">
+  <h2 data-i18n="catalog_title">Product Catalog</h2>
+  <div class="gallery-grid">
+    <div class="gallery-item">
+      <img src="images/product1.jpg.jpg" alt="Product 1">
+    </div>
+    <div class="gallery-item">
+      <img src="images/product2.jpg.jpg" alt="Product 2">
+    </div>
+    <div class="gallery-item">
+      <img src="images/product3.jpg.jpg" alt="Product 3">
+    </div>
+    <div class="gallery-item">
+      <img src="images/product4.jpg.jpg" alt="Product 4">
+    </div>
+     <div class="gallery-item">
+      <img src="images/product5.jpg.jpg" alt="Product 5">
+    </div>
+
+  </div>
+</section>
+
+
+  <!-- ===== Contact ===== -->
+  <section id="contact" class="section contact">
+    <h2 data-i18n="contact_title">Contact Us</h2>
+
+    <form class="contact-form">
+      <input type="text" placeholder="Name">
+      <input type="email" placeholder="Email">
+      <textarea placeholder="Message"></textarea>
+      <button type="submit" data-i18n="send">Send Message</button>
+    </form>
+
+  </section>
+
+  <!-- ===== Location Map ===== -->
+  <section class="section map-section">
+    <h2 data-i18n="location_title">Our Location</h2>
+    <div class="map-container">
+      <iframe
+        src="https://www.google.com/maps?q=32.8872,13.1913&z=15&output=embed"
+        width="100%"
+        height="400"
+        style="border:0;"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade">
+      </iframe>
+    </div>
+  </section>
+
+  <!-- ===== Footer ===== -->
+  <footer class="footer">
+    © 2026 Ares International Group
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
